@@ -1,0 +1,16 @@
+{
+  "name": "screensharetest",
+  "productName": "screensharetest",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "dominicstewart",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "16.0.2"
+  }
+}

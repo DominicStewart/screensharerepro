@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; frame-src 'self' https://*.daily.co; script-src 'self' https://unpkg.com/@daily-co/daily-js 'unsafe-eval'; connect-src https://*.daily.co https://*.pluot.blue wss:; worker-src 'self' blob:; style-src-elem 'self' https://fonts.googleapis.com/css2; font-src 'self' https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2 https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2 https://*.gstatic.com"
+    />
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+<div className="App">
+        <button id="joinCallButton">Join Call</button>
+        <button id="startScreenShareButton">Start screen share</button>
+        <button id="toggleScreenShareButton">Toggle screen share</button>
+        <button id="stopScreenShareButton">Stop screen share</button>
+        <button id="muteAudioButton">Mute Audio</button>
+        <button id="leaveCallButton">Leave call</button>
+        <button id="logParticipantsButton">Log participants</button>
+      </div>
+      <div id="videos"></div>
+      <div id="audios"></div>
+    </>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script crossorigin src="https://unpkg.com/@daily-co/daily-js"></script>
+    <script src="./daily.js"></script> 
+  </body>
+</html>

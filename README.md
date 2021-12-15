@@ -1,4 +1,4 @@
-# screensharerepro
+# screen share repro
 
 This is an Electron Fiddle to reproduce an issue with screen share in an Electron app. 
 
